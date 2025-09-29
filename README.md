@@ -1,19 +1,39 @@
 # Titanic Exploratory Data Analysis (EDA)
 
-This project performs an Exploratory Data Analysis on the Titanic dataset using Python, Pandas, Matplotlib, and Seaborn. It includes data cleaning, visualization, and insights extracted from the data.
+## Project Overview
+This project performs an Exploratory Data Analysis (EDA) on the Titanic dataset using Python. The goal is to extract insights and patterns related to passenger survival using data visualization and statistical exploration.
 
-## Files
-- Titanic_EDA_Notebook.ipynb: Jupyter notebook with all code and visualizations.
-- Titanic_EDA_Report.pdf: PDF report of key findings.
-- train.csv, test.csv, gender_submission.csv: Data files.
 
-## Objective
-To gain insights into factors affecting survival on the Titanic.
+## Files Included
+- **EDA.ipynb**: Jupyter Notebook with all code, visualizations, and observations.
+- **TASK-5-DA.pdf**: PDF report summarizing key findings.
+- **train.csv**: Training dataset with passenger information and survival status.
+- **test.csv**: Test dataset for prediction (optional usage).
+- **gender_submission.csv**: Sample submission file.
 
-## How to Use
-Open the notebook in Jupyter to reproduce analyses and visualizations.
+
+## Tools and Libraries
+- Python 3
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+
+## Analysis Steps
+1. Load and inspect the data.
+2. Clean missing values and handle null data.
+3. Perform univariate analysis (histograms, boxplots, countplots).
+4. Conduct bivariate analysis to explore survival relations.
+5. Use multivariate visualization methods (pairplot, heatmap).
+6. Create new features like FamilySize.
+7. Document detailed observations for each plot.
+8. Summarize main insights in a final report.
+
 
 ## Key Findings
-- Females had higher survival rates.
-- Higher-class passengers were more likely to survive.
-- Age and family size influenced survival chances.
+- Females were more likely to survive than males.
+- Higher passenger classes had better survival chances.
+- Age and family size impacted survival probability.
+- Certain patterns and trends are visible across different features.
